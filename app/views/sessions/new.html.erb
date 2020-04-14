@@ -1,0 +1,8 @@
+<h1>Login here!</h1>
+<%= form_for(@user) do |f| %>
+  <%= f.text_field :name, :placeholder => "Insert your name here." %>
+  <%= f.text_field :password, :placeholder => "Insert your password here." %>
+  <%= submit_tag %>
+  <% end %>
+<!-- <form action="/users" method="POST">
+  <input type="submit" /> -->
