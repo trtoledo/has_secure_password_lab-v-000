@@ -14,15 +14,6 @@ class UsersController < ApplicationController
       else
         redirect_to '/users/new'
       end
-    # @user = User.new
-    # @user.name = params[:user][:name]
-    # @user.password = params[:user][:password]
-    # if @user.save
-    #   session[:user_id] = @user.id
-    #   redirect_to root_path
-    # else
-    #   render 'users/new'
-    # end
   end
 
 
